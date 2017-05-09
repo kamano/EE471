@@ -75,7 +75,7 @@ subplot(2,1,2)
 imagesc(Bottom)
 colorbar
 
-
+%calculating capacitor
 S=sum(result);
 v=2;
-cap=S/v;
+cap=S*length*width/v;
